@@ -1,10 +1,58 @@
 <!DOCTYPE html>
 <html lang="de">
+
 <head>
-	<meta charset="utf-8">
-	<title>Grundlagen</title>
+	<meta charset="UTF-8">
+	<title>Das Bockmodell</title>
+	<style>
+		table {
+			border: 1px solid black;
+			margin: 15px;
+			border-collapse: collapse;
+		}
+
+		th,
+		td {
+			border: 1px solid black;
+			margin: 30px;
+		}
+	</style>
 </head>
+
 <body>
-	<h1>Mein erstes HTML-Dokument</h1>
+	<div>Ergebnisliste</div>
+	<table>
+		<thead>
+			<th>Platz</th>
+			<th>Teamname</th>
+			<th>Läufer 1</th>
+			<th>Läufer 2</th>
+			<th>Zeit</th>
+		</thead>
+		<td rowspan="2">1</td>
+		<td>TSV Penzberg</td>
+		<td>Jäger, Tom</td>
+		<td></td>
+		<td rowspan="2">32:13</td>
+		<tr>
+			<td>LC Buchendorf</td>
+			<td></td>
+			<td>Burger, Hannes</td>
+		</tr>
+		<td>2</td>
+		<td>TSV Penzberg</td>
+		<td>Jäger, Nick</td>
+		<td>Herbeck, Lucas</td>
+		<td> 32:54</td>
+		<td></td>
+		<tr>
+			<td>3</td>
+			<td>TSV Penzberg</td>
+			<td>Bauer, Matthias</td>
+			<td>Hahn, Paul</td>
+			<td>34:32</td>
+		</tr>
+	</table>
 </body>
+
 </html>

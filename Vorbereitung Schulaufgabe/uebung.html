@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <title>Boxmodel</title>
+    <style>
+        body{
+            width:100%;
+            border: 2px dotted green; 
+        }
+        div{
+            background-color:lightblue;
+            border:1px solid red;
+            width: 400px;
+            font-size: 20px;
+            padding: 40px;
+            margin:50px;
+        }
+        table{
+            margin: 15px;
+            border:1px solid black;
+            border-collapse: collapse;
+        }
+        td, th{
+            border:1px solid black;
+            padding: 20px;
+        }
+        .orange{
+            background-color: orange;
+                    }
+    </style>
+</head>
+    <body>
+        <div>Hallo I1A</div>    
+        
+        <table>
+            <thead>
+                <th>Platz</th>
+                <th>Teamname</th>
+                <th>Läufer 1</th>
+                <th>Läufer 2</th>
+                <th>Zeit</th>
+            </thead>
+            <tr>
+                <td rowspan="2">1</td>
+                <td class="orange">TSV Penzberg</td>
+                <td>Jäger, Tom</td>
+                <td></td>
+                <td rowspan="2">32:13</td>
+            </tr>
+            <tr>
+                
+                <td>LC Buchendorf</td>
+                <td></td>
+                <td>Burger, Hannes</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="orange">TSV Penzberg</td>
+                <td>Jäger, Nick</td>
+                <td>Herbeck, Lucas</td>
+                <td>32:54</td>
+            </tr>
+            
+            <tr>
+                    <td>3</td>
+                    <td class="orange">TSV Penzberg</td>
+                    <td>Bauer, Matthias</td>
+                    <td>Halm, Paul</td>
+                    <td>34:32</td>
+            </tr>
+            
+        </table>
+
+    </body>
+</html>
