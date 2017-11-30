@@ -1,47 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
-    <title>Stundeplan</title>
+    <title>Stundenplan</title>
     <style>
-    
-    td, th{
-        border: 1px solid black;
-        text-align: center;
-        padding: 20px;
-    }
-    table{
-        border: 1px solid black;
-        border-collapse: collapse;
-        width: 100%;
-    }
-    .PROG{
-        background-color: lightblue;
-    }
-    .TINF{
-        background-color: lightgreen;
-    }
-    .KN-NWT{
-        background-color: turquoise;
-    }
-    .M{
-        background-color: rosybrown;
-    }
-    .ENG{
-        background-color: lightgoldenrodyellow;
-    }
-    .WSK{
-        background-color: green;
-    }
-    .BA{
-        background-color: lightsalmon;
-    }
+        table {
+            width: 100%;
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
 
+        th,
+        td {
+            border: 1px solid black;
+            padding: 17px;
+        }
 
+        thead {
+            background-color: lightgray;
+        }
+
+        .pr {
+            background-color: lightblue;
+        }
+
+        .en {
+            background-color: lightyellow;
+        }
+
+        .ws {
+            background-color: green;
+        }
+
+        .ma {
+            background-color: lightpink;
+        }
+
+        .ti {
+            background-color: lightgreen;
+        }
+
+        .de {
+            background-color: lightcyan;
+        }
+
+        .ba {
+            background-color: orange;
+        }
+
+        .kn {
+            background-color: lightseagreen;
+        }
+
+        .ia {
+            background-color: burlywood;
+        }
+
+        .db {
+            background-color: rosybrown;
+        }
     </style>
 </head>
+
 <body>
-    <h1>Stundenplan</h1>
+    <h1>Stundenplan I1A</h1>
     <table>
         <thead>
             <th>Stunde</th>
@@ -53,32 +77,32 @@
         </thead>
         <tr>
             <td>1.</td>
-            <td class=PROG rowspan="2">PROG</td>
+            <td class="pr" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/programmieren.html">PROG</a></td>
             <td></td>
-            <td class=TINF rowspan="2">TINF</td>
-            <td>M1</td>
-            <td class=KN-NWT rowspan="3">KN-NWT</td>
+            <td class="ti" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/informatik.html">T-INF</a></td>
+            <td class="ma"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/mathe.html">M1</a></td>
+            <td class="kn" rowspan="3"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/netzwerktechnik.html">KN-NWT</a></td>
         </tr>
         <tr>
             <td>2.</td>
-            <td class=M rowspan="2">M1</td>
-            <td class=KN-NWT rowspan="3">KN-NWT</td>
+            <td class="ma" rowspan="2">M1</td>
+            <td class="kn" rowspan="3"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/netzwerktechnik.html">KN-NWT</a></td>
         </tr>
         <tr>
             <td>3.</td>
-            <td class=ENG rowspan="2">ENG</td>
-            <td class=D rowspan="2">D</td>
+            <td class="en" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/englisch.html">ENG</a></td>
+            <td class="de" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/deutsch.html">DEU</a></td>
         </tr>
         <tr>
             <td>4.</td>
-            <td class=PROG rowspan="3">PROG</td>
-            <td class=TINF rowspan="2">T INF</td>
+            <td class="pr" rowspan="3"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/programmieren.html">PROG</a></td>
+            <td class="ti" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/informatik.html">T-INF</a></td>
         </tr>
         <tr>
             <td>5.</td>
-            <td class=WSK rowspan="2">WSK</td>
-            <td class=BA rowspan="3">BA</td>
-            <td class=IAN rowspan="3">IAN</td>
+            <td class="ws" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/wsk.html">WSK</a></td>
+            <td class="ba" rowspan="3"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/betriebssysteme.html">BA</a></td>
+            <td class="ia" rowspan="3"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/internetanwendung.html">IAN</a></td>
         </tr>
         <tr>
             <td>6.</td>
@@ -86,27 +110,25 @@
         </tr>
         <tr>
             <td>7.</td>
-            <td class=M rowspan="2">M1</td>
-            <td class=FUM rowspan="2">FU-M</td>
+            <td class="ma" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/mathe.html">M1</a></td>
+            <td class="ma" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/mathe.html">FU-M1</a></td>
         </tr>
         <tr>
             <td>8.</td>
-            <td class=PROG rowspan="2">PROG</td>
-            <td class=DB rowspan="3">DB</td>
+            <td class="pr" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/programmieren.html">PROG</a></td>
+            <td class="db" rowspan="3"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/datenbanken.html">DB</a></td>
         </tr>
         <tr>
             <td>9.</td>
-            <td></td>
-            <td class=FUE rowspan="2">FU-E</td>
+            <td rowspan="2"></td>
+            <td class="en" rowspan="2"><a href="/home/pi/entwicklung/html/Vorbereitung Schulaufgabe/Faecher/englisch.html">E-FU</a></td>
         </tr>
         <tr>
             <td>10.</td>
             <td></td>
-            <td></td>
         </tr>
-
     </table>
 
-
 </body>
+
 </html>
