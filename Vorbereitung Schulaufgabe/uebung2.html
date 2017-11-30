@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stundeplan</title>
+    <style>
+    
+    td, th{
+        border: 1px solid black;
+        text-align: center;
+        padding: 20px;
+    }
+    table{
+        border: 1px solid black;
+        border-collapse: collapse;
+        width: 100%;
+    }
+    .PROG{
+        background-color: lightblue;
+    }
+    .TINF{
+        background-color: lightgreen;
+    }
+    .KN-NWT{
+        background-color: turquoise;
+    }
+    .M{
+        background-color: rosybrown;
+    }
+    .ENG{
+        background-color: lightgoldenrodyellow;
+    }
+    .WSK{
+        background-color: green;
+    }
+    .BA{
+        background-color: lightsalmon;
+    }
+
+
+    </style>
+</head>
+<body>
+    <h1>Stundenplan</h1>
+    <table>
+        <thead>
+            <th>Stunde</th>
+            <th>Montag</th>
+            <th>Dienstag</th>
+            <th>Mittwoch</th>
+            <th>Donnerstag</th>
+            <th>Freitag</th>
+        </thead>
+        <tr>
+            <td>1.</td>
+            <td class=PROG rowspan="2">PROG</td>
+            <td></td>
+            <td class=TINF rowspan="2">TINF</td>
+            <td>M1</td>
+            <td class=KN-NWT rowspan="3">KN-NWT</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td class=M rowspan="2">M1</td>
+            <td class=KN-NWT rowspan="3">KN-NWT</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td class=ENG rowspan="2">ENG</td>
+            <td class=D rowspan="2">D</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td class=PROG rowspan="3">PROG</td>
+            <td class=TINF rowspan="2">T INF</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td class=WSK rowspan="2">WSK</td>
+            <td class=BA rowspan="3">BA</td>
+            <td class=IAN rowspan="3">IAN</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td rowspan="5"></td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td class=M rowspan="2">M1</td>
+            <td class=FUM rowspan="2">FU-M</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td class=PROG rowspan="2">PROG</td>
+            <td class=DB rowspan="3">DB</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td></td>
+            <td class=FUE rowspan="2">FU-E</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td></td>
+            <td></td>
+        </tr>
+
+    </table>
+
+
+</body>
+</html>
