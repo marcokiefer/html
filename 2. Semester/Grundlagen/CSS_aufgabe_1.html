@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+  <head>
+    <title>CSS-Aufgabe</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: Arial;
+        background: beige;
+        margin: auto;
+        padding-top: 40px;
+        
+      }
+
+      #main {
+        border: 1px solid green;
+        margin: auto;
+        width: 600px;
+        background-color: whitesmoke;
+        line-height: 1.4em;
+        padding: 15px;
+  
+      }
+
+      h1 {
+        margin: 0;
+        text-align: center;
+      }
+      
+      ul {
+        list-style-type: square;
+        font-family: monospace;
+        font-size: 1.3em;
+        padding-left: 15px;
+      }
+     
+      blockquote {
+        border-left: 10px solid green;
+        background-color: lightgreen;
+        color: darkblue;
+        font-weight: bold;
+        padding: 5px 10px 5px 20px;
+        margin-left: 5px;
+        margin-right: 0;
+      }
+    
+      mark {
+        color: white;
+        background-color: green;
+        padding: 1px 5px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="main">
+      <h1>CSS-Aufgabe</h1>
+      <p>
+        Der Main-Container ist 600 Pixel breit und wird auf der Seite zentriert. Die Standard&shy;schrift der Seite ist <mark>Arial</mark>. Die Hintergrundfarbe des gesamten Fens&shy;ters ist <mark>beige</mark>, die Hintergrundfarbe des Main-Containers <mark>whitesmoke</mark>. <mark>Markie&shy;rungen</mark> sind weiß auf grün, mit etwas mehr Innenabstand. Der Zeilendurchschuss wurde mit <mark>line-height: 1.4em</mark> etwas erhöht. Der Text in diesem Container hat einen Innenabstand von 15 Pixel. Zur Worttrennung wurde im Quellcode an geeigneten Stellen die Entity <mark>&amp;shy;</mark> eingefügt.
+      </p>
+      <p>
+        Die <mark>Liste</mark> bekommt statt der üblichen ausgefüllten Kreise kleine Quadrate und wird nicht so stark eingerückt wie normalerweise. Als Schrift wird hier eine etwas ver&shy;grö&shy;ßerte <mark>monospace</mark> benutzt
+      </p>
+      <p>
+        Das <mark>Blockquote</mark> wird nicht eingerückt, bekommt aber folgende Auszeichnungen: 
+      </p>
+      <ul>
+        <li>Farben: lightgreen und darkblue, gefettet</li>
+        <li>Linker Rand: 10px solid green</li>
+        <li>Innenabstand links: 20 Pixel</li>
+        <li>Innenabstand oben/unten: je 5 Pixel</li>
+        <li>Innenabstand rechts: 10 Pixel</li>
+      </ul>
+      <blockquote>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed d  iam voluptua.
+      </blockquote>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed d  iam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+      </p>
+    </div>
+  </body>
+</html>
