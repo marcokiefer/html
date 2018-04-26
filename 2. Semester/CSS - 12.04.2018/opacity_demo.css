@@ -1,0 +1,41 @@
+/* CSS opacity Demo */
+body {
+  font-family: Arial;
+  background-color: silver;
+}
+.kasten {
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin: 50px auto;
+  padding: 20px;
+  width: 540px;
+}
+
+h1 {
+  margin: 0 0 10px 0;
+}
+
+.fett {
+  font-weight: bold;
+}
+
+.op01 {opacity: 0.1;}
+.op02 {opacity: 0.2;}
+.op03 {opacity: 0.3;}
+.op04 {opacity: 0.4;}
+.op05 {opacity: 0.5;}
+.op06 {opacity: 0.6;}
+.op07 {opacity: 0.7;}
+.op08 {opacity: 0.8;}
+.op09 {opacity: 0.9;}
+
+span.antwort {
+  opacity: 0;
+  font-weight: bold;
+  color: red;
+}
+
+span.antwort:hover {
+  opacity: 1;
+}

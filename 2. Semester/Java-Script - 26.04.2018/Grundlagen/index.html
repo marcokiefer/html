@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <script src="myscript.js">
+        "use strict";
+        // Kommentar
+    </script>
+</head>
+
+<body>
+    <script>
+        document.write("<p>Hallo, Welt</p>", "<p>Noch ein Text</p>");
+    </script>
+    <div class="container">
+        <p onclick="window.alert('klick')">Klick mich!</p>
+    </div>
+
+    <script>
+        document.write("<p> 4 + 5 = ", (4 + 5), "</p>");
+        document.write("<p> 4 - 5 = ", (4 - 5), "</p>");
+        document.write("<p> 4 &times; 5 = ", (4 * 5), "</p>");
+        document.write("<p> 4 &divide; 5 = ", (4 / 5), "</p>");
+    </script>
+
+    <script>
+        var vorname = "Giesbert";
+        var nachname = "Damaschke";
+        var alter = 57;
+        var Lehrer = true;
+        var zahl = "2345";      // String
+        zahl = zahl + 5;
+        document.write("<p>", zahl, "</p>");
+        zahl = zahl * 2;
+        zahl = zahl + 5;
+        document.write("<p>", zahl, "</p>");
+    </script>
+
+</body>
+
+</html>
